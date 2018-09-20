@@ -6,7 +6,7 @@ setup(
     name="charlette",
     version=__version__,
     packages=find_packages(),
-    install_requires=["Django", "channels", "starlette", "innate"],
+    install_requires=["Django", "channels", "starlette", "innate==0.1.1"],
     license="MIT License",
     url="https://github.com/erm/charlette",
     description="Django app that uses Starlette components with Channels.",
